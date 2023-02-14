@@ -1,29 +1,31 @@
+<!-- Definimos el tipo de documento HTML -->
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Definimos el conjunto de caracteres a utilizar y el título de la página -->
         <meta charset="utf-8"/>
-        <title>¿Quieres ser mi novia?</title>
+        <title>¿Quieres ser mi novi@?</title>
+        <!-- Importamos nuestro archivo CSS para estilizar la página -->
         <link rel="stylesheet" href="app.css">
     </head>
     <body>
-
-        <div class="modo_sexo">
+        <!-- Definimos un contenedor con la clase "modo_sexto" y un encabezado h1 -->
+        <div class="modo_sexto">
             <h1>MODO SEXTO ACTIVADO</h1>
         </div>
 
+        <!-- Definimos un elemento de video con atributos de ancho, alto, controles, reproducción automática y bucle, y dos fuentes de video para navegadores que soportan formatos diferentes -->
         <video width="560" height="315" controls autoplay loop >
             <source src="video.mp4" type="video/mp4">
             TU NAVEGADOR NO PUEDE CON ESTE VIDEO
         </video>
-
-        
-
     </body>
 
+    <!-- Agregamos un párrafo y dos botones para interactuar con la página y un script para ejecutar código JavaScript -->
+    <!-- El btn_no es el que se moverá por la pantalla gracias al JS -->
     <p>DI QUE SI POR FAVOR</p>
     <button id="btn_si">SIIIIIIIIIIII</button>
     <label id="btn_no">no :(</label>
 
     <script src="app.js"></script>
-
 </html>
