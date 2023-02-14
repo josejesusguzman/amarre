@@ -1,12 +1,15 @@
+/* Cambiamos el cursor a una mano cuando se pasa el mouse sobre un botón */
 button:hover {
     cursor: pointer;
 }
 
+/* Establecemos el color del texto del encabezado como 'azure' */
 h1 {
     color: azure;
 }
 
-.modo_sexo {
+/* Establecemos el tamaño y la posición de la sección 'modo_sexto' y la ocultamos por defecto */
+.modo_sexto {
     height: 2000px;
     position: absolute;
     display: none;
@@ -14,19 +17,21 @@ h1 {
     background-color: red;
 }
 
+/* Establecemos el estilo del botón'btn_si' */
 #btn_si {
-    background-color: #00a65a;
+    background-color: #00a65a; 
     border-color: #00a65a;
     color: azure;
     font-size: xx-large;
     padding: 24px;
     text-align: center;
     border-radius: 2px;
-    -webkit-animation: breathing 5s ease-out infinite normal;
+    -webkit-animation: breathing 5s ease-out infinite normal; /* Aquí le asignamos la animación a nuestro botón */
     animation: breathing 5s ease-out infinite normal;
     -webkit-font-smoothing: antialiased;
 }
 
+/* Definimos la animación 'breathing' */
 @-webkit-keyframes breathing {
     0% {
         -webkit-transform: scale(0.9);
@@ -49,6 +54,7 @@ h1 {
     }
 }
 
+/* Definamos la animación 'breathing' para navegadores distintos de webkit */
 @keyframes breathing {
     0% {
         -webkit-transform: scale(0.9);
